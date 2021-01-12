@@ -27,7 +27,7 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
-gem 'shopify_app', '~>13.4.0'
+gem 'shopify_app', '~>16.1.0'
 gem 'dotenv-rails', groups: [:development, :test]
 
 
