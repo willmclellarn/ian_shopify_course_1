@@ -81,7 +81,7 @@ GEM
       faraday-net_http (~> 1.0)
       multipart-post (>= 1.2, < 3)
       ruby2_keywords
-    faraday-net_http (1.0.0)
+    faraday-net_http (1.0.1)
     ffi (1.14.2)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -187,7 +187,7 @@ GEM
       activeresource (>= 4.1.0, < 6.0.0)
       graphql-client
       rack
-    shopify_app (16.1.0)
+    shopify_app (13.4.1)
       browser_sniffer (~> 1.2.2)
       jwt (~> 2.2.1)
       omniauth-shopify-oauth2 (~> 2.2.2)
@@ -240,7 +240,7 @@ DEPENDENCIES
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.4)
   sass-rails (>= 6)
-  shopify_app
+  shopify_app (~> 13.4.0)
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
